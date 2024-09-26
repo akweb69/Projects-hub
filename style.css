@@ -1,0 +1,27 @@
+
+body{
+
+    font-family: "Poppins", system-ui;
+}
+.title-1{
+    background: linear-gradient(to top left ,rgba(8, 192, 54, 0.333), rgba(197, 7, 222, 0.467), rgb(4, 227, 86));
+}
+.left-content{
+    border: 2px solid rgb(7, 234, 237);
+    padding: 1rem;
+    border-radius: 1rem;
+    overflow-y: scroll;
+    height: 300px;
+
+}
+.divider1{
+    border: 2px dashed rgb(4, 220, 227);
+}
+.live-link{
+    transition: .5s;
+}
+.live-link:hover{
+    background-color: aquamarine;
+    padding:0  1rem;
+    border-radius: .5rem;
+}

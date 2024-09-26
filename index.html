@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AKwebdev | All Projects Live Link |</title>
+    <!-- tailwind and DaisyUI cdn added here -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fonts added here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Favicon added here -->
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+    <!-- vanilla css added here -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="max-w-[1550px] mx-auto">
+    <!-- header section  -->
+    <header>
+      <section>
+        <!--  navbar section -->
+        <div
+          class="w-full bg-green-100 sticky top-0 backdrop-blur-md shadow-sm"
+        >
+          <div class="navbar w-11/12 mx-auto">
+            <div class="flex-1">
+              <a class="cursor-pointer text-xl"
+                ><span
+                  class="text-3xl font-bold bg-gradient-to-tl from-green-700 to-green-300 bg-clip-text text-transparent"
+                  >AK</span
+                ><span class="text-2xl text-end font-semibold text-amber-600"
+                  >Dev.</span
+                ></a
+              >
+            </div>
+            <div class="flex-none gap-2">
+              <div class="form-control hidden sm:block">
+                <input
+                  type="text"
+                  placeholder="Search Projects"
+                  class="input input-bordered w-24 md:w-auto"
+                />
+              </div>
+              <div class="dropdown dropdown-end">
+                <div
+                  tabindex="0"
+                  role="button"
+                  class="btn btn-ghost btn-circle avatar"
+                >
+                  <div class="w-10 rounded-full">
+                    <img
+                      alt="Tailwind CSS Navbar component"
+                      src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                    />
+                  </div>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+                >
+                  <li>
+                    <a class="justify-between">
+                      Profile
+                      <span class="badge">New</span>
+                    </a>
+                  </li>
+                  <li><a>Settings</a></li>
+                  <li><a>Logout</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--TODO:  hero section   -->
+        <div
+          class="w-full h-screen bg-gradient-to-b from-green-100 to-green-300"
+        >
+          <div class="w-11/12 mx-auto">
+            <!-- content -->
+            <div class="">
+              <h1
+                class="text-4xl title-1 font-bold text-center bg-clip-text text-transparent py-6"
+              >
+                Welcome To The Projects Hub!
+              </h1>
+            </div>
+
+            <!-- main content -->
+            <div class="md:grid grid-cols-2 gap-6 mt-10">
+              <!-- left -->
+              <div class="left-content">
+                <!-- projets -->
+                <div class="" >
+
+                  <div id="live-link" class="flex justify-between live-link items-center cursor-pointer mb-2">
+                    <!-- left -->
+                     <div class="">
+                        <h1 class="text-2xl font-semibold capitalize text-purple-700"> Simple protfolio website</h1>
+                        <p class="text-sm font-semibold  text-purple-950 capitalize">assignment-01</p>
+                     </div>
+                     <!-- right -->
+                      <div class="">
+                        <img src="./assets/icons8-send-64.png" alt="">
+                      </div>
+
+                  </div>
+                  <!-- 02 -->
+                  <div id="live-link2" class="flex justify-between live-link items-center cursor-pointer mb-2">
+                    <!-- left -->
+                     <div class="">
+                        <h1 class="text-2xl font-semibold capitalize text-purple-700"> Simple Fitness club website</h1>
+                        <p class="text-sm font-semibold  text-purple-950 capitalize">assignment-02</p>
+                     </div>
+                     <!-- right -->
+                      <div class="">
+                        <img src="./assets/icons8-send-64.png" alt="">
+                      </div>
+
+                  </div>
+                   
+                    
+                  </div>
+                </div>
+              </div>
+              <!-- right -->
+              <div class=""></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
