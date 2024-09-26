@@ -7,11 +7,15 @@ body{
     background: linear-gradient(to top left ,rgba(8, 192, 54, 0.333), rgba(197, 7, 222, 0.467), rgb(4, 227, 86));
 }
 .left-content{
-    border: 2px solid rgb(7, 234, 237);
+   border-bottom: 3px dashed rgb(45, 214, 138);
+   border-left: 2px solid greenyellow;
+   border-right: 2px solid greenyellow;
+
+            
     padding: 1rem;
     border-radius: 1rem;
     overflow-y: scroll;
-    height: 300px;
+    
 
 }
 .divider1{
